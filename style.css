@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap');
+
+body {
+    font-family: 'Inconsolata', monospace;
+}
+
+.titleContainer {
+    margin: 100px 200px;
+    /* border: 5px black solid; */
+    display: flex;
+    flex-direction: row;
+}
+
+.subtitleContainer {
+    width: 50%;
+}
+
+.title {
+    width: 50%;
+}
+
+.subtitle {
+    display: flex;
+}
+
+.who {
+    display: flex;
+    width: 55%;
+}
