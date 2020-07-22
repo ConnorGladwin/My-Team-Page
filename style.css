@@ -4,26 +4,37 @@ body {
     font-family: 'Inconsolata', monospace;
 }
 
+/* Title CSS */
+
 .titleContainer {
-    margin: 100px 200px;
-    /* border: 5px black solid; */
-    display: flex;
-    flex-direction: row;
+    margin: 50px 20%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
-.subtitleContainer {
-    width: 50%;
+.team {
+    margin-bottom: 100px;
 }
 
-.title {
-    width: 50%;
+.job {
+    position: absolute;
+    transform: rotate(90deg);
+    margin: 55px 0 0 -50px;
+    width: 126px;
 }
 
-.subtitle {
-    display: flex;
+.name {
+    display: block;
 }
 
-.who {
-    display: flex;
-    width: 55%;
+.column {
+    margin: 0 20%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.mov {
+    margin-top: 100px;
 }
